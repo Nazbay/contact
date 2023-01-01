@@ -1,0 +1,37 @@
+.contact-detail__avatar{
+display: flex;
+align-items: center;
+}
+.heart{
+    width: 70px;
+    height: 68px;
+    margin-left: 20px;
+}
+.contact-detail__wrapper{
+    width: 90%;
+    margin: 0 5%;
+}
+.contact-detail__form{
+    display: flex;
+
+}
+.contact-detail__form-left{
+    margin-right: 30px;
+}
+.contact-detail__form-input p{
+    margin-bottom: 6px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #212121BF;
+
+}
+.contact-detail__form-input input{
+    width: 289px;
+    height: 40px;
+    border: 1px solid #21212159;
+    border-radius: 2px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+

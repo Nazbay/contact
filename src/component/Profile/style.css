@@ -1,0 +1,28 @@
+.user-cart{
+    box-shadow: 1px 1px 3px 0px #21212140;
+}
+.user-cart__item{
+    display: flex;
+}
+
+.user-cart__name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.user-cart__name img{
+    width: 17px;
+    height: 15px;
+}
+.user-cart__item img{
+width: 15px;
+height: 15px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.user-img{
+    width: 100%;
+}
+.user-cart__content{
+    padding: 10px;
+}

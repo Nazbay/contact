@@ -1,0 +1,17 @@
+.filter-and-search{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 30px auto;
+}
+.filter-and-search input{
+    border: 1px solid rgba(33, 33, 33, 0.35);
+    width: 615px;
+    font-size: 20px;
+    text-indent: 10px;
+}
+.filter-and-search__right{
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+}
