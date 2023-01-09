@@ -4,9 +4,11 @@ import axios from "axios";
 export const fetchData = () => {
 
   return async function (dispatch) {
-    const request = await axios
-    .get(`https://my-json-server.typicode.com/RomanChasovitin/demo-api/users`)
+    const request = await fetch(`https://my-json-server.typicode.com/RomanChasovitin/demo-api/users`)
     const result = await request.json()
-    dispatch(getAllUsers(result))
+    dispatch(getAllUsers(result.data))
   };
+
 };
+
+
